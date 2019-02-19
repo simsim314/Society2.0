@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Infrastructure">
+      <UniqueIdentifier>{4469a596-f048-4747-a8c1-2590f87dc2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1">
+      <UniqueIdentifier>{eb9d2bb5-8cdd-4efa-87b5-583bba2a21ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1\Person">
+      <UniqueIdentifier>{bd586c82-927c-4424-8acc-e178886928e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1\Groups">
+      <UniqueIdentifier>{782acc7e-5b63-4f31-8fab-11dfc7b2eb43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level2">
+      <UniqueIdentifier>{d78a7234-ecaa-4536-be68-725af7d6810a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level2\Safety">
+      <UniqueIdentifier>{5248ef85-c699-4552-b276-0027266ced56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level2\DB">
+      <UniqueIdentifier>{5fab21d7-6cfd-4f9e-a731-dcfa1f62099d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level3">
+      <UniqueIdentifier>{b78bfdff-1da6-4bd1-9214-5d14627f7faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level3\EcoSystem">
+      <UniqueIdentifier>{99d0744d-9596-4292-a729-4d7e92dde603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1\P2P">
+      <UniqueIdentifier>{8cc41aaa-5794-4b33-b353-65a5f4f9c981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1\SocialOrder">
+      <UniqueIdentifier>{1b8b904d-3819-4370-b4fa-0c7f88682cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1\Rule">
+      <UniqueIdentifier>{4aba6024-5db0-4294-a820-bf35749e7221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Versioning">
+      <UniqueIdentifier>{f349578d-fbfe-441f-947f-2f175fe154c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level3\Market">
+      <UniqueIdentifier>{b66876ad-79a4-4005-81d6-f53069ecc71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level4">
+      <UniqueIdentifier>{265319dd-662f-4714-b14e-3691ac818bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level4\Pyramids">
+      <UniqueIdentifier>{930d5677-8fcc-4e3c-9e63-aae56dfaf74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIInterface">
+      <UniqueIdentifier>{a2a500d0-2c27-4536-acb6-097675568dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1\Poll">
+      <UniqueIdentifier>{5befb7bd-80ec-4687-ab80-069c1165e408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level4\Person">
+      <UniqueIdentifier>{fdd36ee2-1089-4f4c-abae-079ff4568114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level4\OtherGroups">
+      <UniqueIdentifier>{f8d7a6b6-5bff-4d08-b537-c9f8040af057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level4\Trade">
+      <UniqueIdentifier>{1c67bb23-9b69-45fc-99db-30e92071a612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Level1\P2P\Economy">
+      <UniqueIdentifier>{abe03273-fc1d-44d1-9520-682b0433821b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIInterface\Cases">
+      <UniqueIdentifier>{c9cef66f-33ee-43b8-a8a7-6963b8b94a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Infrastructure\Utils">
+      <UniqueIdentifier>{fabc9394-0f00-44ec-bd7d-fb9fb17af4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Infrastructure\Utils\Meta">
+      <UniqueIdentifier>{5017b470-e226-4ddf-93a0-25c95afd34df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CL Emulator">
+      <UniqueIdentifier>{40cb3cd0-cb6b-426b-b951-517f32c5d830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CL Emulator\Wrap">
+      <UniqueIdentifier>{ac609b98-9ff4-4955-a5b0-bf559c6f9f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIInterface\Base">
+      <UniqueIdentifier>{5a59c4b8-f684-4552-8817-de0131110a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIInterface\UIGeneratorDB">
+      <UniqueIdentifier>{de20ab9b-0471-4a75-bc82-9d2d76194ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UnitTest">
+      <UniqueIdentifier>{918bac80-0cd3-471c-8cf2-d25a4e675602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UnitTest\MocksGeneration">
+      <UniqueIdentifier>{f92a991f-2051-4592-b432-8a89e3b2c237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UnitTest\Test">
+      <UniqueIdentifier>{51b2a4c2-2bb2-413a-8ab6-9c6830c37e9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Header Files\Level2\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonalSafety.cpp">
+      <Filter>Header Files\Level2\Safety</Filter>
+    </ClCompile>
+    <ClCompile Include="EcoSystem.cpp">
+      <Filter>Header Files\Level3\EcoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Group.cpp">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp">
+      <Filter>Header Files\Level1\P2P</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupPerson.cpp">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonalPreferences.cpp">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupPersonPreferences.cpp">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupPreferences.cpp">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialOrder.cpp">
+      <Filter>Header Files\Level1\SocialOrder</Filter>
+    </ClCompile>
+    <ClCompile Include="Rule.cpp">
+      <Filter>Header Files\Level1\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetingPolicy.cpp">
+      <Filter>Header Files\Level1\P2P</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupGene.cpp">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="News.cpp">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="Version.cpp">
+      <Filter>Header Files\Versioning</Filter>
+    </ClCompile>
+    <ClCompile Include="VersionManager.cpp">
+      <Filter>Header Files\Versioning</Filter>
+    </ClCompile>
+    <ClCompile Include="Package.cpp">
+      <Filter>Header Files\Versioning</Filter>
+    </ClCompile>
+    <ClCompile Include="Currency.cpp">
+      <Filter>Header Files\Level3\Market</Filter>
+    </ClCompile>
+    <ClCompile Include="Tamaguchi.cpp">
+      <Filter>Header Files\Level3\EcoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="LeakyPyramid.cpp">
+      <Filter>Header Files\Level4\Pyramids</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramid.cpp">
+      <Filter>Header Files\Level4\Pyramids</Filter>
+    </ClCompile>
+    <ClCompile Include="EcoSystemSurvival.cpp">
+      <Filter>Header Files\Level3\EcoSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="EthicalValue.cpp">
+      <Filter>Header Files\Level1\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="Norm.cpp">
+      <Filter>Header Files\Level1\Rule</Filter>
+    </ClCompile>
+    <ClCompile Include="PollQuestion.cpp">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClCompile>
+    <ClCompile Include="HivePollQuestion.cpp">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClCompile>
+    <ClCompile Include="LordQeustion.cpp">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClCompile>
+    <ClCompile Include="Trade.cpp">
+      <Filter>Header Files\Level1\P2P</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillPerson.cpp">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="CommunicationPerson.cpp">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="PyramidPerson.cpp">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="CommunityPerson.cpp">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="HappinessPerson.cpp">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClCompile>
+    <ClCompile Include="StarGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="CommunityGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="CityGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="CommunicationGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrencyManager.cpp">
+      <Filter>Header Files\Level3\Market</Filter>
+    </ClCompile>
+    <ClCompile Include="DemocracyGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="HappinessGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="RepresentativeDemocracyGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualRepresentativeDemocracyGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWinTrade.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="PhilosopherKingGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="LeakyLine.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="CommunismGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="AnarchoCapitalismGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="Anarchy.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="ReligionGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="Market.cpp">
+      <Filter>Header Files\Level4\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeGroup.cpp">
+      <Filter>Header Files\Level4\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeCenterGroup.cpp">
+      <Filter>Header Files\Level4\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="AnarchyCommunismGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="HiveExpertsGroup.cpp">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClCompile>
+    <ClCompile Include="Capitalism.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="Thankfulness.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferenceCount.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalTrade.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="TrustedDevelopers.cpp">
+      <Filter>Header Files\Versioning</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClCompile>
+    <ClCompile Include="HiveTest.cpp">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClCompile>
+    <ClCompile Include="EcoSystemViewer.cpp">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateNewToPersonUI.cpp">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupDefinitionUI.cpp">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupInteractionUI.cpp">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClCompile>
+    <ClCompile Include="ProposeMeetingToPersonUI.cpp">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBase.cpp">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSerialization.cpp">
+      <Filter>Header Files\Infrastructure\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicaFunctions.cpp">
+      <Filter>Header Files\Infrastructure\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaControl.cpp">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaFloat.cpp">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaString.cpp">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaSwitch.cpp">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClCompile>
+    <ClCompile Include="UIActivity.cpp">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPoll.cpp">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGlobalNavigator.cpp">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UISuggestions.cpp">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UINews.cpp">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CLBaseNavigator.cpp">
+      <Filter>Header Files\CL Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="CLActivity.cpp">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="CLPoll.cpp">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="CLNews.cpp">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="CLSuggestion.cpp">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="CLGlobalNavigator.cpp">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="CLTopNavigator.cpp">
+      <Filter>Header Files\CL Emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="UIFillForm.cpp">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CLFillForm.cpp">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFactories.cpp">
+      <Filter>Header Files\UIInterface\UIGeneratorDB</Filter>
+    </ClCompile>
+    <ClCompile Include="HappinessMaximization.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="Policy.cpp">
+      <Filter>Header Files\Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectsDB.cpp">
+      <Filter>Header Files\Infrastructure\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManagerMock.cpp">
+      <Filter>Header Files\UnitTest</Filter>
+    </ClCompile>
+    <ClCompile Include="FocusEconomy.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiDimensionalEconomy.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="WinWinEconomy.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicFunctions.h">
+      <Filter>Header Files\Infrastructure\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>Header Files\Level2\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalSafety.h">
+      <Filter>Header Files\Level2\Safety</Filter>
+    </ClInclude>
+    <ClInclude Include="EcoSystem.h">
+      <Filter>Header Files\Level3\EcoSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Group.h">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="Transaction.h">
+      <Filter>Header Files\Level1\P2P</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupPerson.h">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalPreferences.h">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupPersonPreferences.h">
+      <Filter>Header Files\Level1\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupPreferences.h">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialOrder.h">
+      <Filter>Header Files\Level1\SocialOrder</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>Header Files\Level1\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="MeetingPolicy.h">
+      <Filter>Header Files\Level1\P2P</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupGene.h">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="News.h">
+      <Filter>Header Files\Level1\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="Version.h">
+      <Filter>Header Files\Versioning</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionManager.h">
+      <Filter>Header Files\Versioning</Filter>
+    </ClInclude>
+    <ClInclude Include="Package.h">
+      <Filter>Header Files\Versioning</Filter>
+    </ClInclude>
+    <ClInclude Include="Currency.h">
+      <Filter>Header Files\Level3\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="Tamaguchi.h">
+      <Filter>Header Files\Level3\EcoSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="LeakyPyramid.h">
+      <Filter>Header Files\Level4\Pyramids</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramid.h">
+      <Filter>Header Files\Level4\Pyramids</Filter>
+    </ClInclude>
+    <ClInclude Include="EcoSystemSurvival.h">
+      <Filter>Header Files\Level3\EcoSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="EthicalValue.h">
+      <Filter>Header Files\Level1\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="Norm.h">
+      <Filter>Header Files\Level1\Rule</Filter>
+    </ClInclude>
+    <ClInclude Include="PollQuestion.h">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClInclude>
+    <ClInclude Include="HivePollQuestion.h">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClInclude>
+    <ClInclude Include="LordQeustion.h">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClInclude>
+    <ClInclude Include="Trade.h">
+      <Filter>Header Files\Level1\P2P</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillPerson.h">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunicationPerson.h">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="PyramidPerson.h">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunityPerson.h">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="HappinessPerson.h">
+      <Filter>Header Files\Level4\Person</Filter>
+    </ClInclude>
+    <ClInclude Include="StarGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunityGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="CityGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunicationGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrencyManager.h">
+      <Filter>Header Files\Level3\Market</Filter>
+    </ClInclude>
+    <ClInclude Include="DemocracyGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="HappinessGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="RepresentativeDemocracyGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualRepresentativeDemocracyGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWinTrade.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="PhilosopherKingGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="LeakyLine.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunismGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="AnarchoCapitalismGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="Anarchy.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="ReligionGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="Market.h">
+      <Filter>Header Files\Level4\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeGroup.h">
+      <Filter>Header Files\Level4\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeCenterGroup.h">
+      <Filter>Header Files\Level4\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="Capitalism.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="AnarchyCommunismGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="HiveExpertsGroup.h">
+      <Filter>Header Files\Level4\OtherGroups</Filter>
+    </ClInclude>
+    <ClInclude Include="Thankfulness.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="ReferenceCount.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalTrade.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="TrustedDevelopers.h">
+      <Filter>Header Files\Versioning</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClInclude>
+    <ClInclude Include="HiveTest.h">
+      <Filter>Header Files\Level1\Poll</Filter>
+    </ClInclude>
+    <ClInclude Include="EcoSystemViewer.h">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateNewToPersonUI.h">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupDefinitionUI.h">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupInteractionUI.h">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="ProposeMeetingToPersonUI.h">
+      <Filter>Header Files\UIInterface\Cases</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBase.h">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSerialization.h">
+      <Filter>Header Files\Infrastructure\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Meta.h">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaControl.h">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaFloat.h">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaString.h">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaSwitch.h">
+      <Filter>Header Files\Infrastructure\Utils\Meta</Filter>
+    </ClInclude>
+    <ClInclude Include="UIActivity.h">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPoll.h">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGlobalNavigator.h">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UISuggestions.h">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UINews.h">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CLBaseNavigator.h">
+      <Filter>Header Files\CL Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="CLActivity.h">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="CLGlobalNavigator.h">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="CLNews.h">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="CLPoll.h">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="CLSuggestion.h">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="CLTopNavigator.h">
+      <Filter>Header Files\CL Emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="UIFillForm.h">
+      <Filter>Header Files\UIInterface\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CLFillForm.h">
+      <Filter>Header Files\CL Emulator\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGenerator.h">
+      <Filter>Header Files\UIInterface\UIGeneratorDB</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFactories.h">
+      <Filter>Header Files\UIInterface\UIGeneratorDB</Filter>
+    </ClInclude>
+    <ClInclude Include="HappinessMaximization.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="Policy.h">
+      <Filter>Header Files\Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectsDB.h">
+      <Filter>Header Files\Infrastructure\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManagerMock.h">
+      <Filter>Header Files\UnitTest</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaMockGenerator.h">
+      <Filter>Header Files\UnitTest\MocksGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="UserMockGenerator.h">
+      <Filter>Header Files\UnitTest\MocksGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="TestUserCases.h">
+      <Filter>Header Files\UnitTest\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMetaClass.h">
+      <Filter>Header Files\UnitTest\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTest.h">
+      <Filter>Header Files\UnitTest\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="FocusEconomy.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiDimensionalEconomy.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="WinWinEconomy.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{195346D6-3923-49A1-904B-F350C269939D}</ProjectGuid>
+    <RootNamespace>Society20</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractSerialization.cpp" />
+    <ClCompile Include="AnarchoCapitalismGroup.cpp" />
+    <ClCompile Include="Anarchy.cpp" />
+    <ClCompile Include="AnarchyCommunismGroup.cpp" />
+    <ClCompile Include="Capitalism.cpp" />
+    <ClCompile Include="CityGroup.cpp" />
+    <ClCompile Include="CLActivity.cpp" />
+    <ClCompile Include="CLGlobalNavigator.cpp" />
+    <ClCompile Include="CLNews.cpp" />
+    <ClCompile Include="CLPoll.cpp" />
+    <ClCompile Include="CLSuggestion.cpp" />
+    <ClCompile Include="CLTopNavigator.cpp" />
+    <ClCompile Include="CommunicationGroup.cpp" />
+    <ClCompile Include="CommunicationPerson.cpp" />
+    <ClCompile Include="CommunismGroup.cpp" />
+    <ClCompile Include="CommunityGroup.cpp" />
+    <ClCompile Include="CommunityPerson.cpp" />
+    <ClCompile Include="Currency.cpp" />
+    <ClCompile Include="DBManager.cpp" />
+    <ClCompile Include="DBManagerMock.cpp" />
+    <ClCompile Include="DemocracyGroup.cpp" />
+    <ClCompile Include="EcoSystem.cpp" />
+    <ClCompile Include="EcoSystemSurvival.cpp" />
+    <ClCompile Include="EcoSystemViewer.cpp" />
+    <ClCompile Include="EthicalValue.cpp" />
+    <ClCompile Include="FocusEconomy.cpp" />
+    <ClCompile Include="GenerateNewToPersonUI.cpp" />
+    <ClCompile Include="Group.cpp" />
+    <ClCompile Include="GroupDefinitionUI.cpp" />
+    <ClCompile Include="GroupGene.cpp" />
+    <ClCompile Include="GroupInteractionUI.cpp" />
+    <ClCompile Include="GroupPersonPreferences.cpp" />
+    <ClCompile Include="GroupPreferences.cpp" />
+    <ClCompile Include="HappinessGroup.cpp" />
+    <ClCompile Include="HappinessMaximization.cpp" />
+    <ClCompile Include="HappinessPerson.cpp" />
+    <ClCompile Include="HiveExpertsGroup.cpp" />
+    <ClCompile Include="HivePollQuestion.cpp" />
+    <ClCompile Include="HiveTest.cpp" />
+    <ClCompile Include="CLBaseNavigator.cpp" />
+    <ClCompile Include="LeakyLine.cpp" />
+    <ClCompile Include="LeakyPyramid.cpp" />
+    <ClCompile Include="CLFillForm.cpp" />
+    <ClCompile Include="LordQeustion.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CurrencyManager.cpp" />
+    <ClCompile Include="Market.cpp" />
+    <ClCompile Include="MeetingPolicy.cpp" />
+    <ClCompile Include="MetaControl.cpp" />
+    <ClCompile Include="MetaFloat.cpp" />
+    <ClCompile Include="MetaString.cpp" />
+    <ClCompile Include="MetaSwitch.cpp" />
+    <ClCompile Include="MultiDimensionalEconomy.cpp" />
+    <ClCompile Include="News.cpp" />
+    <ClCompile Include="Norm.cpp" />
+    <ClCompile Include="ObjectsDB.cpp" />
+    <ClCompile Include="Package.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PersonalPreferences.cpp" />
+    <ClCompile Include="PersonalSafety.cpp" />
+    <ClCompile Include="PhilosopherKingGroup.cpp" />
+    <ClCompile Include="PhysicalTrade.cpp" />
+    <ClCompile Include="Policy.cpp" />
+    <ClCompile Include="PollQuestion.cpp" />
+    <ClCompile Include="ProposeMeetingToPersonUI.cpp" />
+    <ClCompile Include="Pyramid.cpp" />
+    <ClCompile Include="PyramidPerson.cpp" />
+    <ClCompile Include="ReferenceCount.cpp" />
+    <ClCompile Include="ReligionGroup.cpp" />
+    <ClCompile Include="RepresentativeDemocracyGroup.cpp" />
+    <ClCompile Include="Rule.cpp" />
+    <ClCompile Include="SkillGroup.cpp" />
+    <ClCompile Include="SkillPerson.cpp" />
+    <ClCompile Include="SocialOrder.cpp" />
+    <ClCompile Include="BasicaFunctions.cpp" />
+    <ClCompile Include="MainFactories.cpp" />
+    <ClCompile Include="StarGroup.cpp" />
+    <ClCompile Include="Tamaguchi.cpp" />
+    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="Thankfulness.cpp" />
+    <ClCompile Include="Trade.cpp" />
+    <ClCompile Include="TradeCenterGroup.cpp" />
+    <ClCompile Include="TradeGroup.cpp" />
+    <ClCompile Include="Transaction.cpp" />
+    <ClCompile Include="GroupPerson.cpp" />
+    <ClCompile Include="TrustedDevelopers.cpp" />
+    <ClCompile Include="UIActivity.cpp" />
+    <ClCompile Include="UIBase.cpp" />
+    <ClCompile Include="UIFillForm.cpp" />
+    <ClCompile Include="UIGlobalNavigator.cpp" />
+    <ClCompile Include="UINews.cpp" />
+    <ClCompile Include="UIPoll.cpp" />
+    <ClCompile Include="UISuggestions.cpp" />
+    <ClCompile Include="Version.cpp" />
+    <ClCompile Include="VersionManager.cpp" />
+    <ClCompile Include="VirtualRepresentativeDemocracyGroup.cpp" />
+    <ClCompile Include="WinWinEconomy.cpp" />
+    <ClCompile Include="WinWinTrade.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractSerialization.h" />
+    <ClInclude Include="AnarchoCapitalismGroup.h" />
+    <ClInclude Include="Anarchy.h" />
+    <ClInclude Include="AnarchyCommunismGroup.h" />
+    <ClInclude Include="BasicFunctions.h" />
+    <ClInclude Include="Capitalism.h" />
+    <ClInclude Include="CityGroup.h" />
+    <ClInclude Include="CLActivity.h" />
+    <ClInclude Include="CLGlobalNavigator.h" />
+    <ClInclude Include="CLNews.h" />
+    <ClInclude Include="CLPoll.h" />
+    <ClInclude Include="CLSuggestion.h" />
+    <ClInclude Include="CLTopNavigator.h" />
+    <ClInclude Include="CommunicationGroup.h" />
+    <ClInclude Include="CommunicationPerson.h" />
+    <ClInclude Include="CommunismGroup.h" />
+    <ClInclude Include="CommunityGroup.h" />
+    <ClInclude Include="CommunityPerson.h" />
+    <ClInclude Include="Currency.h" />
+    <ClInclude Include="FocusEconomy.h" />
+    <ClInclude Include="MultiDimensionalEconomy.h" />
+    <ClInclude Include="ObjectsDB.h" />
+    <ClInclude Include="TestUserCases.h" />
+    <ClInclude Include="MetaMockGenerator.h" />
+    <ClInclude Include="DBManager.h" />
+    <ClInclude Include="DBManagerMock.h" />
+    <ClInclude Include="DemocracyGroup.h" />
+    <ClInclude Include="EcoSystem.h" />
+    <ClInclude Include="EcoSystemSurvival.h" />
+    <ClInclude Include="EcoSystemViewer.h" />
+    <ClInclude Include="EthicalValue.h" />
+    <ClInclude Include="GenerateNewToPersonUI.h" />
+    <ClInclude Include="Group.h" />
+    <ClInclude Include="GroupDefinitionUI.h" />
+    <ClInclude Include="GroupGene.h" />
+    <ClInclude Include="GroupInteractionUI.h" />
+    <ClInclude Include="GroupPersonPreferences.h" />
+    <ClInclude Include="GroupPreferences.h" />
+    <ClInclude Include="HappinessGroup.h" />
+    <ClInclude Include="HappinessMaximization.h" />
+    <ClInclude Include="HappinessPerson.h" />
+    <ClInclude Include="CLBaseNavigator.h" />
+    <ClInclude Include="CLFillForm.h" />
+    <ClInclude Include="UserMockGenerator.h" />
+    <ClInclude Include="MainFactories.h" />
+    <ClInclude Include="MainTest.h" />
+    <ClInclude Include="HiveExpertsGroup.h" />
+    <ClInclude Include="HivePollQuestion.h" />
+    <ClInclude Include="HiveTest.h" />
+    <ClInclude Include="LeakyLine.h" />
+    <ClInclude Include="LeakyPyramid.h" />
+    <ClInclude Include="LordQeustion.h" />
+    <ClInclude Include="CurrencyManager.h" />
+    <ClInclude Include="Market.h" />
+    <ClInclude Include="MeetingPolicy.h" />
+    <ClInclude Include="Meta.h" />
+    <ClInclude Include="MetaControl.h" />
+    <ClInclude Include="MetaFloat.h" />
+    <ClInclude Include="MetaString.h" />
+    <ClInclude Include="MetaSwitch.h" />
+    <ClInclude Include="News.h" />
+    <ClInclude Include="Norm.h" />
+    <ClInclude Include="Package.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="PersonalPreferences.h" />
+    <ClInclude Include="PersonalSafety.h" />
+    <ClInclude Include="PhilosopherKingGroup.h" />
+    <ClInclude Include="PhysicalTrade.h" />
+    <ClInclude Include="Policy.h" />
+    <ClInclude Include="PollQuestion.h" />
+    <ClInclude Include="ProposeMeetingToPersonUI.h" />
+    <ClInclude Include="Pyramid.h" />
+    <ClInclude Include="PyramidPerson.h" />
+    <ClInclude Include="ReferenceCount.h" />
+    <ClInclude Include="ReligionGroup.h" />
+    <ClInclude Include="RepresentativeDemocracyGroup.h" />
+    <ClInclude Include="Rule.h" />
+    <ClInclude Include="SkillGroup.h" />
+    <ClInclude Include="SkillPerson.h" />
+    <ClInclude Include="SocialOrder.h" />
+    <ClInclude Include="StarGroup.h" />
+    <ClInclude Include="Tamaguchi.h" />
+    <ClInclude Include="Test.h" />
+    <ClInclude Include="TestMetaClass.h" />
+    <ClInclude Include="Thankfulness.h" />
+    <ClInclude Include="Trade.h" />
+    <ClInclude Include="TradeCenterGroup.h" />
+    <ClInclude Include="TradeGroup.h" />
+    <ClInclude Include="Transaction.h" />
+    <ClInclude Include="GroupPerson.h" />
+    <ClInclude Include="TrustedDevelopers.h" />
+    <ClInclude Include="UIActivity.h" />
+    <ClInclude Include="UIBase.h" />
+    <ClInclude Include="UIFillForm.h" />
+    <ClInclude Include="UIGenerator.h" />
+    <ClInclude Include="UIGlobalNavigator.h" />
+    <ClInclude Include="UINews.h" />
+    <ClInclude Include="UIPoll.h" />
+    <ClInclude Include="UISuggestions.h" />
+    <ClInclude Include="Version.h" />
+    <ClInclude Include="VersionManager.h" />
+    <ClInclude Include="VirtualRepresentativeDemocracyGroup.h" />
+    <ClInclude Include="WinWinEconomy.h" />
+    <ClInclude Include="WinWinTrade.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
