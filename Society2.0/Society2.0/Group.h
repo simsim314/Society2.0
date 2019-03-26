@@ -148,7 +148,7 @@ public:
 	//score such that X% only pass. Those who pass you probe on higher scale - such that the flow 
 	//of information from bottom to top will be optimized. 
 	Policy* PolicyToTestSuggestions(Policy* list_suggestions);
-	
+
 	//Each UI is optimizing to be interesting per each size so that you will grow.
 	//You will also get points for the growth.
 	//Hevruta split. Consensus and testing of suggestions 

@@ -198,3 +198,48 @@ static int GroupToString()
 
 	return 1;
 }
+
+static int TamaguchiToString()
+{
+	Tamaguchi* str = CreateTamaguchi();
+
+	string temp = *(str->ToString());
+	Tamaguchi* str1 = new Tamaguchi();
+	str1->ProcessString(split_string(temp, '@'), 0);
+	string temp1 = *(str1->ToString());
+
+	if (temp != temp1)
+		return -1;
+
+	return 1;
+}
+
+static int EcoSystemSurvivalToString()
+{
+	EcoSystemSurvival* str = CreateEcoSystemSurvival();
+
+	string temp = *(str->ToString());
+	EcoSystemSurvival* str1 = new EcoSystemSurvival();
+	str1->ProcessString(split_string(temp, '@'), 0);
+	string temp1 = *(str1->ToString());
+
+	if (temp != temp1)
+		return -1;
+
+	return 1;
+}
+
+static int EcoSystemToString()
+{
+	EcoSystem* str = CreateEcoSystem();
+
+	string temp = *(str->ToString());
+	EcoSystem* str1 = new EcoSystem();
+	str1->ProcessString(split_string(temp, '@'), 0);
+	string temp1 = *(str1->ToString());
+
+	if (temp != temp1)
+		return -1;
+
+	return 1;
+}

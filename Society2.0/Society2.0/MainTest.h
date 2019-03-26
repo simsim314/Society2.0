@@ -21,14 +21,12 @@ void AssertTest(const string& test_name, int(*test_case)())
 //Permission and his acceptance? This is force. This is violance, this is a crime. Like 
 //in Rick & Morty it's not slavery if it's not society - well this is slavery, modern slavery. 
 //And it will continue to work and inslaves us until we will raise from the dashes, and say 
-//To society: ENOUGH! of this bulshiiiiiit, complete bulshit. You can play by whatewer stupid 
+//To society: ENOUGH! of this complete bulshit. You can play by whatewer stupid 
 //Rules you want, I don't see any reason as rational free man to play by your rules. Obviously
 //This is why we need Society 2.0. Please also check out the solution of Scott Alexander Archipelago. 
-//This is very simple idea, but it's the real moral solution to current humanity problems. At least a beginning 
-//Of the solution. People feel free and have no problem to say to me who I am, how I should behave what I 
-//Should believe, and how I should live my life. I tell you all "FUCK YOU" I piss on you from high above, and your stupid rules, 
-//Invented by anctient men from the long past. I say goodbay to the stupidity controling me and my life, and I say 
-//Hello to the 21st century revolution. I hope you (the reader) will join me. 
+//This is very simple idea, but it's the real moral solution to current humanity problems. 
+//At least a beginning of the solution. I say Hello to the 21st century revolution. 
+//I hope you (the reader) will join me. 
 
 static void TestingSerialization()
 {
@@ -55,6 +53,9 @@ static void TestingSerialization()
 	AssertTest("NewsToString", NewsToString);
 	AssertTest("GenesToString", GenesToString);
 	AssertTest("GroupToString", GroupToString);
+	AssertTest("TamaguchiToString", TamaguchiToString);
+	AssertTest("EcoSystemSurvivalToString", EcoSystemSurvivalToString);
+	AssertTest("EcoSystemToString", EcoSystemToString);
 	
 }
 

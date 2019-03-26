@@ -105,6 +105,9 @@
     <Filter Include="Header Files\UnitTest\Test">
       <UniqueIdentifier>{51b2a4c2-2bb2-413a-8ab6-9c6830c37e9e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Distributed">
+      <UniqueIdentifier>{fbfa13d4-d4ad-492e-acfa-f55f026c5a7a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -400,6 +403,15 @@
     </ClCompile>
     <ClCompile Include="WinWinEconomy.cpp">
       <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="CommunisticEconomy.cpp">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClCompile>
+    <ClCompile Include="DAgent.cpp">
+      <Filter>Header Files\Distributed</Filter>
+    </ClCompile>
+    <ClCompile Include="DEmulator.cpp">
+      <Filter>Header Files\Distributed</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -714,6 +726,15 @@
     </ClInclude>
     <ClInclude Include="WinWinEconomy.h">
       <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="CommunisticEconomy.h">
+      <Filter>Header Files\Level1\P2P\Economy</Filter>
+    </ClInclude>
+    <ClInclude Include="DAgent.h">
+      <Filter>Header Files\Distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="DEmulator.h">
+      <Filter>Header Files\Distributed</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

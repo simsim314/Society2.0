@@ -18,16 +18,15 @@
 //complex of EcoSystem survival on this phone + EcoSystemSurvival data passed from other Users. 
 class Tamaguchi
 {
-	MetaFloat personification_score; //How many people treat it as living organism. 
+public:
+	MetaFloat* personification_score; //How many people treat it as living organism. 
+	vector<MetaString*> history_of_usage_and_score; 
 
 	//At every stage the app might start to die off. 
 	//Don’t nag the user at first, but try to find the optimal measure for this. 
 	//Ask question at first how much does he wants to be alerted about the topic. Some applications //are passive - when I need I want to press button
 	//Groups sometimes compatible and can swap some of the genes between themselves and check out if the genes are helping them. Those genes that will spread better and improve the growth better will be suggested more by the system. 
 	Policy* AlertingPolicy();
-
-	vector<EcoSystemSurvival*> friends;
-	EcoSystemSurvival Global;
 
 	//At the beginning simple emulation of human mood switches, 
 	//later on network that will generate the next emotion to increase global EcoSytemSurvival 
@@ -42,8 +41,17 @@ class Tamaguchi
 	//Manage different policies so that the user will be happy. 
 	//Switch user friendliness memes in every transaction. Apply the best memes. 
 	Policy* SurvivalStrategyOnPhone();
-	
+
+	//Make believe it’s alive as it’s alive. But optimize for this belief, make 
+	//things that make it feel more alive. Face, pain due to low growth, crying - 
+	//Show size as human and baby as small human and old person as very wise and 7G app. Personification. 
+	MetaFloat* EstimateLifehood();
+
 public:
+
+	string* ToString();
+	int ProcessString(const vector<string>& db_line, int num);
+
 	Tamaguchi();
 	~Tamaguchi();
 };

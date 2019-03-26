@@ -8,6 +8,9 @@ using namespace std;
 
 class Version
 {
+public: 
+	string version_hash; 
+
 	MetaString* version_name;
 	
 	Version* parent;

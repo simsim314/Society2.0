@@ -1,6 +1,7 @@
 #pragma once
 #include "MetaMockGenerator.h"
 #include "Policy.h"
+#include "EcoSystem.h"
 
 static Policy* CreatePolicy(const string& str)
 {
@@ -156,6 +157,28 @@ static GroupGene* CreateGene(const string& the_gene)
 	return ms;
 }
 
+static Tamaguchi* CreateTamaguchi()
+{
+	Tamaguchi* ms = new Tamaguchi();
+	ms->history_of_usage_and_score.push_back(CreateString("Hello world! I'm comming home to the place where I belong, (pachamama, I'm comming home to the place where I belooo..ong, I wanna be free so free like the dolfin in the see like the flower ... I wanna fly high, so high like the eagel in the sky, and when my times is comming and I'm gonna rise up and fly) <- (pachamama)x2, we can write notes as well, I wonna be free like the being as I see not to rise not to fall being there is no high there is no low there is no place where I shoould go, just inside a little a little star <- (pachamama)x3 "));
+	ms->personification_score = CreateFloat(0.348);
+
+	return ms;
+}
+
+static EcoSystemSurvival* CreateEcoSystemSurvival()
+{
+	EcoSystemSurvival* ms = new EcoSystemSurvival();
+	ms->eco_stats.push_back(CreateFloat(0.2112));
+	ms->eco_stats.push_back(CreateFloat(0.21));
+	ms->groups_hashs.push_back("A");
+	ms->groups_hashs.push_back("B");
+	ms->groups_hashs.push_back("C");
+	ms->tamaguchi_strategy = CreateTamaguchi();
+
+	return ms;
+}
+
 static Group* CreateGroup(const string& group_name)
 {
 	Group* ms = new Group();
@@ -228,4 +251,26 @@ void FillGroupByHash(Group* ms)
 
 	for (int i = 0; i < ms->ts_hashs.size(); i++)
 		ms->ts.push_back(CreateTransaction());
+}
+
+
+static EcoSystem* CreateEcoSystem()
+{
+	EcoSystem* ms = new EcoSystem();
+	ms->all_groups.push_back(CreateGroup("A"));
+	ms->all_groups.push_back(CreateGroup("B"));
+	ms->all_groups.push_back(CreateGroup("C"));
+	ms->all_transactions.push_back(CreateTransaction());
+	ms->black_list_ids.push_back(CreateString("xxx"));
+	ms->black_list_ids.push_back(CreateString("yxy"));
+	ms->branching_factor = CreateFloat(0.4);
+	ms->eco_hash = "Z";
+	ms->globalUsageStats.push_back(CreateFloat(0.33));
+	ms->globalUsageStats.push_back(CreateFloat(0.22));
+	ms->global_eco = CreateEcoSystemSurvival();
+	ms->local_eco = CreateEcoSystemSurvival();
+	ms->user = CreatePerson("Miki");
+	ms->userUsageStats.push_back(CreateFloat(0.7));
+
+	return ms;
 }
